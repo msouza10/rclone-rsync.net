@@ -37,10 +37,10 @@ Quando solicitado, adicione um nome para o novo remoto. Aqui, escolhemos "rsync"
 **Passo 5: Selecionar o SFTP**
 
 ```plaintext
-Storage> 36
+Storage> sftp
 ```
 
-Escolha a opção "SFTP" (opção 36) da lista de tipos de armazenamento.
+Escolha a opção "SFTP" da lista de tipos de armazenamento.
 
 **Passo 6: Adicionar o Endereço do SFTP**
 
