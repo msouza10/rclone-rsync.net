@@ -89,7 +89,7 @@ Se você utiliza uma chave SSH para autenticação, insira os detalhes da chave.
 y/g/n> n
 ```
 
-Se a sua chave SSH possui uma senha, insira-a aqui. Caso contrário, escolha "n".
+Se a sua chave SSH possui uma senha, insira-a aqui. Caso contrário, escolha "n". (O mesmo para as proximas ate advanced config.)
 
 **Passo 12: Configurações Avançadas (Opcional)**
 
