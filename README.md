@@ -86,10 +86,10 @@ Se você utiliza uma chave SSH para autenticação, insira os detalhes da chave.
 **Passo 11: Senha para a Chave (se aplicável)**
 
 ```plaintext
-y/g/n> n
+y/g/n> 
 ```
 
-Se a sua chave SSH possui uma senha, insira-a aqui. Caso contrário, escolha "n". (O mesmo para as proximas ate advanced config.)
+Se a sua chave SSH possui uma senha, insira-a aqui. Caso contrário, pressione Enter para pular esta etapa. (O mesmo para as proximas ate advanced config.)
 
 **Passo 12: Configurações Avançadas (Opcional)**
 
