@@ -160,7 +160,7 @@ Wants=network-online.target
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/rclone mount rsync:/ /mnt/rsync --config /root/.config/rclone/rclone.conf --allow-other --vfs-cache-mode writes
+ExecStart=/usr/bin/rclone mount rsync: /mnt/rsync --config /root/.config/rclone/rclone.conf --allow-other --vfs-cache-mode writes
 ExecStop=/bin/fusermount -u /mnt/rsync
 Restart=always
 RestartSec=10
