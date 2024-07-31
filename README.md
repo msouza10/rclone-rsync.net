@@ -122,11 +122,31 @@ Este comando monta o seu servidor rsync.net no diretório `/mnt/rsync`.
 ls /mnt/rsync
 ```
 
+```bash
+df -h
+```
+
 Verifique se a montagem foi bem-sucedida listando o conteúdo do diretório.
+
+
+
+
+**Desmontando apos os testes.**
+
+```bash
+umount -l /mnt/rsync
+```
+
+```bash
+df -h
+```
+
+Verifique se a desmontagem foi bem-sucedida.
 
 **Configurar o Serviço do Systemd para Montagem Automática**
 
 Para garantir que o seu servidor rsync.net seja montado automaticamente no boot, siga os passos abaixo para configurar um serviço systemd:
+
 
 **Passo 15: Criar o Arquivo de Serviço do Systemd**
 
